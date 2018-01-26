@@ -13,6 +13,6 @@ https://gist.github.com/lisovy/80dde5a792e774a706a9
     - Con esto estamos volcando los datos recopilados a un fichero llamado *wsm-pcap*.
 * En el terminal anterior ejecutar:
     - `./wireless wlan0`
-    - Si la interfaz es otra, cambiar wlan0 por la correcta
+    - Si la interfaz es otra, cambiar *wlan0* por la correcta
     - Esta ejecución manda 100 paquetes a difusión con contenido aleatorio (*random*)
 * Si se desea, se puede abrir con Wireshark el fichero *wsm-pcap* para ver los paquetes enviados. 
