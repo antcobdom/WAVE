@@ -6,7 +6,7 @@ https://gist.github.com/lisovy/80dde5a792e774a706a9
 * Desactivar *network-manager*:
     - `sudo stop network-manager`  
 * Ejecutar el script para **[habilitar 802.11p](inicio.sh)**
-### Instrucciones para ejecutar 1609
+### Instrucciones para ejecutar [1609](1609)
 * `make all`
 * Abrir otro terminal y ejecutar *tcpdump* para que escuche en la interfaz deseada (wlan0 en este caso):
     - `sudo tcpdump -ni wlan0 -s0 -w wsm-pcap -vvv`
